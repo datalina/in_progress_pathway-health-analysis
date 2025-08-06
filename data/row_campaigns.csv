@@ -1,0 +1,58 @@
+﻿campaign_id,campaign_category,campaign_type,cost,impressions,clicks
+CAM033,Health For All,Product Promotion,846.05,32272,0
+CAM051,Health For All,Policy Information,1253.53,20437,0
+CAM057,Health For All,Health Awareness,1062.21,29630,0
+CAM032,Family Coverage Plan,Product Promotion,801.46,452680,
+CAM036,Golden Years Security,Covid Awareness,301.47,25492,0
+CAM041,Golden Years Security,Covid Awareness,571.72,35448,0
+CAM053,Golden Years Security,Product Promotion,338.28,13480,0
+CAM010,Affordable Plans,Covid Awareness,820.58,221170,12460
+CAM028,Affordable Plans,Policy Information,300.13,84850,27785
+CAM045,Affordable Plans,Covid Awareness,448.44,21487,1348.5
+CAM021,Family Coverage Plan,Customer Testimonial,1606.23,449340,
+CAM005,Golden Years Security,Offer Announcement,1519.17,148170,2345
+CAM011,Golden Years Security,Offer Announcement,1334.06,200340,3634
+CAM001,Tailored Health Plans,Covid Awareness,1335.57,291270,20510
+CAM009,Tailored Health Plans,Health Awareness,394.64,480790,34210
+CAM017,Tailored Health Plans,Offer Announcement,1089.28,451840,23370
+CAM029,Tailored Health Plans,Health Tips,401.05,136160,12425
+CAM039,Tailored Health Plans,Covid Awareness,1954.65,38799,2055
+CAM004,Compare Health Coverage,Customer Testimonial,1354.94,100690,42440
+CAM006,Compare Health Coverage,Product Promotion,1254.29,100630,22080
+CAM016,Compare Health Coverage,Covid Awareness,1367.17,295250,15760
+CAM034,Compare Health Coverage,Policy Information,1612.29,49659,4296
+CAM035,Compare Health Coverage,Customer Testimonial,1428.2,39736,1720
+CAM037,Compare Health Coverage,Health Tips,754.28,15970,1749
+CAM044,Compare Health Coverage,Covid Awareness,871.88,46515,2141
+CAM050,Compare Health Coverage,Product Promotion,1400.17,16260,3163.5
+CAM018,Health For All,Health Awareness,1185.17,88220,43453
+CAM024,Benefit Updates,Product Promotion,710.72,88390,6360
+CAM027,Benefit Updates,Policy Information,1440.59,155890,47785
+CAM002,Preventive Care News,Customer Testimonial,1624.44,428100,47330
+CAM003,Preventive Care News,Policy Information,1944.23,260280,36990
+CAM008,Preventive Care News,Policy Information,223.09,336700,42175
+CAM046,Preventive Care News,Covid Awareness,1338.13,39003,3564.5
+CAM048,Preventive Care News,Product Promotion,767.81,10255,4287
+CAM056,Preventive Care News,Health Tips,359.11,42630,2316.5
+CAM014,Summer Wellness Tips,Policy Information,125.05,290300,44040
+CAM015,Summer Wellness Tips,Health Awareness,1555.58,215420,41970
+CAM038,Summer Wellness Tips,Policy Information,1380.28,24985,4094
+CAM040,Summer Wellness Tips,Covid Awareness,1833.28,19761,4962.5
+CAM052,Summer Wellness Tips,Product Promotion,1868.57,15644,4065
+CAM055,Summer Wellness Tips,Health Awareness,322.92,6900,4536
+CAM007,#HealthyLiving,Policy Information,1173.59,482520,45155
+CAM020,#HealthyLiving,Health Tips,1822.72,441280,30515
+CAM023,#HealthyLiving,Offer Announcement,303.77,281960,38420
+CAM030,#HealthyLiving,Policy Information,1362.21,110700,13040
+CAM047,#HealthyLiving,Health Tips,404.67,49541,2342
+CAM049,#HealthyLiving,Offer Announcement,1609.68,6447,2595.5
+CAM012,#CoverageMatters,Product Promotion,244.01,72280,6010
+CAM026,#CoverageMatters,Covid Awareness,1260.9,265110,38585
+CAM031,#CoverageMatters,Product Promotion,806.42,374710,29645
+CAM013,#InsureYourHealth,Customer Testimonial,1134.32,289290,18240
+CAM019,#InsureYourHealth,Covid Awareness,1872.24,215500,24470
+CAM022,#InsureYourHealth,Product Promotion,738.83,380140,26000
+CAM042,#InsureYourHealth,Offer Announcement,225.46,45711,1339.5
+CAM043,#InsureYourHealth,Product Promotion,1189.2,6083,3440
+CAM054,#InsureYourHealth,Health Tips,1412.83,33520,1050.5
+CAM025,Family Coverage Plan,Customer Testimonial,1528.73,204520,
