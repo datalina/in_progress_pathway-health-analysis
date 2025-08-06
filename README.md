@@ -8,19 +8,18 @@
 
 ### Details about the data: 
 - Data spans from 2019 to 2023
-- Customer journey: Marketing -> Signups -> Claims
 - Data tables: customers, campaigns, claims
 <img width="744" height="684" alt="image" src="https://github.com/user-attachments/assets/2cf536a4-884a-4639-95b1-3a7201e1061d" />
 
 
 ### Stakeholder request:
-- Understand marketing campaign effectiveness, specifically marketing campaign impact since 2019.
-- Build a dashboard for the marketing team to enable self-serve insights and regular cadence reporting (e.g. quarterly business review), featuring:
+- Understand marketing campaign effectiveness, specifically marketing campaign impact in the customer journey (marketing -> signups -> claims) since 2019
+- Build a dashboard for the marketing team to enable self-serve insights and regular cadence reporting (e.g. quarterly business review) featuring:
     1. Quick glance values for key marketing and signup metrics
     2. Value reporting for key marketing, signup, and claim metrics per campaign category
     3. Overall trends by category for signups and claim amounts over time
     4. Distribution of signups and claim amounts across categories over time
-    5. Performance comparison of KPIs across categories
+    5. Performance comparison of KPIs (marketing metrics) across categories
     6. Segmentation by plan, state, and category type
 
 ### Key metrics and dimensions:
