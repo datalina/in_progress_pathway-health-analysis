@@ -26,14 +26,14 @@
 | #  | **North Star Metrics**        | Notes                                                                                          |
 |----| :-----------------------------| :----------------------------------------------------------------------------------------------|
 | 1  | **Click-through-rate (CTR)**  | Percentage of people who saw a campaign and clicked on the associated link (clicks/impressions)|
-| 2  | **Cost-per-click (CPC)**      | Average cost incurred per individual click                                                     |
+| 2  | **Cost-per-click (CPC)**      | Average cost in dollars incurred per individual click                                          |
 | 3  | **Impressions**               | Number of times a campaign was surfaced to an audience on the internet/social media            |
-| 4  | **Cost-per-impression (CPI)** | Dollar cost incurred for each impression (spend/impressions)                                   |
-| 5  | **Signups**                   | Number of people who converted to buying an insurance plan                                     |
-| 6  | **Signup rate**               | Percentage of people who saw a campaign and then signed up for a plan (signups/impressions)    |
-| 7  | **Cost-per-signup (CPS)**     | Average cost in dollars incurred per signup from each campaign                                 |
-| 8  | **Claim amount**              | Cost of filed claims in dollars                                                                |
-| 9  | **Claim counts**              | Number of claims filed                                                                         |
+| 4  | **Signups**                   | Number of people who converted to buying an insurance plan                                     |
+| 5  | **Signup rate**               | Percentage of people who saw a campaign and then signed up for a plan (signups/impressions)    |
+| 6  | **Cost-per-signup (CPS)**     | Average cost in dollars incurred per signup from each campaign (cost/signups)                  |
+| 7  | **Claim amount**              | Cost of filed claims in dollars                                                                |
+| 8  | **Claim count**               | Number of claims filed                                                                         |
+| 9  | **Average claim amount**      | Average claim value in dollars per claim (claim amount/claim count)                            |
 
 
 | #  | **Key Dimensions**              |
