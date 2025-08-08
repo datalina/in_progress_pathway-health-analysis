@@ -13,7 +13,7 @@
 ### Details about the data: 
 - Data spans from 2019 to 2023
 - Data tables: customers, campaigns, claims
-<img width="744" height="684" alt="image" src="data/row_ERD.png" />
+<img width="744" height="684" alt="image" src="data/pathway_health_ERD.png" />
 
 
 ### Stakeholder request:
