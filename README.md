@@ -1,4 +1,8 @@
-# Row Health Analysis
+<h1 align="center">
+  <img src="presentation/pathway_health_logo_v6.png" alt="Pathway Health Logo" width="1000" /> 
+</h1>
+
+# Pathway Health Analysis
 
 ### Details about the company:
 - Founded in 2016
@@ -9,7 +13,7 @@
 ### Details about the data: 
 - Data spans from 2019 to 2023
 - Data tables: customers, campaigns, claims
-<img width="744" height="684" alt="image" src="https://github.com/user-attachments/assets/2cf536a4-884a-4639-95b1-3a7201e1061d" />
+<img width="744" height="684" alt="image" src="data/row_ERD.png" />
 
 
 ### Stakeholder request:
@@ -43,6 +47,8 @@
 | 3  | **Time**                        |
 | 4  | **Plan** (i.e. insurance plan)  |
 
- 
+ ### Campaign Category Dashboard
+[![Campaign Category Dashboard](presentation/Campaign%20Category%20Dashboard.png)](https://public.tableau.com/views/PathwayHealthCampaignAnalysis/CampaignCategoryDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 
 
