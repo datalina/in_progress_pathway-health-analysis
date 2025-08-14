@@ -25,6 +25,8 @@
     4. Distribution of signups and claim amounts across categories over time
     5. Performance comparison of KPIs (marketing metrics) across categories
     6. Segmentation by plan, state, and category type
+- Use dashboard to discover insights on campaign categories and form recommendations for marketing budget
+- Create a presentation to illustrate recommendations to **marketing team** and help refine marketing budget decisions for 2024 
 
 ### Key metrics and dimensions:
 | #  | **North Star Metrics**        | Notes                                                                                          |
