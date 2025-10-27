@@ -17,7 +17,7 @@ As Pathway Health prepares its 2024 marketing strategy, leadership sought a deep
 
 <br>
 
-## Dataset Structure
+## Dataset
 
 The dataset covered the period 2019–2023 and included three main tables:
 - **Campaigns**: campaign category, type, impressions, clicks, spend  
