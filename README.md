@@ -2,7 +2,7 @@
   <img src="presentation/pathway_health_logo_v6.png" alt="Pathway Health Logo" width="1000" /> 
 </h1>
 
-# Pathway Health Marketing Analysis, Insights, and Recommendations
+# Pathway Health Campaign Insights
 
 ## Overview
 
@@ -15,7 +15,7 @@ As Pathway Health prepares its 2024 marketing strategy, leadership sought a deep
 2. **Increase customer signups**  
 3. **Manage claim risk**
 
----
+<br>
 
 ## Dataset Structure
 
@@ -26,7 +26,7 @@ The dataset covered the period 2019–2023 and included three main tables:
 <img width="744" height="684" alt="image" src="data/pathway_health_ERD.png" />
 These tables were integrated into a Tableau dashboard to enable self‑service exploration and quarterly business reviews.
 
----
+<br>
 
 ## North Star Metrics
 
@@ -40,23 +40,23 @@ The analysis was anchored on three strategic metrics:
 
 Supporting metrics included impressions, clicks, signup rate, and cost per click (CPC).
 
----
+<br>
 
 ## Insights Summary
 
-### Brand Awareness & Acquisition
+#### Brand Awareness & Acquisition
 - **Health For All** campaigns led across CTR, signup rate, and CPS, driven by strong Health Awareness campaigns.
 - **#CoverageMatters** and **#HealthyLiving** combined high signup volume with low CPS, making them efficient acquisition channels.
 - **Golden Years Security** underperformed severely, with minimal signups and the highest CPS.
 
-### Claim Risk
+#### Claim Risk
 - **Compare Health Coverage** delivered signups but generated the highest **per‑claim costs**, suggesting disproportionate downstream risk.
 
-### Funnel Quality
+#### Funnel Quality
 - Several campaigns showed breakdowns (e.g., high CTR but no signups, missing click data, 0‑click signups).
 - Signups were heavily concentrated in **New Jersey (~50%)**, limiting generalizability of results.
 
----
+<br>
 
 ## Recommendations
 
@@ -65,7 +65,7 @@ Supporting metrics included impressions, clicks, signup rate, and cost per click
 - **Investigate anomalies** in click/signup attribution and NJ concentration.
 - **Improve data capture**: campaign start/end dates, channel and billing model (CPC vs CPM), and geographic detail.
 
----
+<br>
 
 ## Dashboard
 
@@ -76,11 +76,10 @@ A Tableau dashboard was created to support ongoing monitoring of campaign perfor
 
 [![Pathway Health Campaign Analysis Dashboard](presentation/Campaign%20Category%20Dashboard.png)](https://public.tableau.com/views/PathwayHealthCampaignAnalysis/CampaignCategoryDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 
----
+<br>
 
 ## Presentation
 
 The final presentation synthesizes insights and recommendations for the marketing team and provides guidance for 2024 budget allocation.
 
-[![Pathway Health Insights and Recommendations](Pathway%20Health%20Insights%20and%20Recommendations.pdf)](https://github.com/datalina/in_progress_pathway-health-analysis/blob/main/presentation/Pathway%20Health%20Insights%20and%20Recommendations.pdf)
----
+[![Pathway Health Campaign Insights](presentation/Pathway%20Health%20Insights%20Cover.png)](https://github.com/datalina/in_progress_pathway-health-analysis/blob/main/presentation/Pathway%20Health%20Insights%20and%20Recommendations.pdf)
