@@ -2,55 +2,85 @@
   <img src="presentation/pathway_health_logo_v6.png" alt="Pathway Health Logo" width="1000" /> 
 </h1>
 
-# Pathway Health Analysis
+# Pathway Health Marketing Analysis, Insights, and Recommendations
 
-### Details about the company:
-- Founded in 2016
-- Medical insurance industry
-- Offers Bronze, Silver, Gold, Platinum insurance plans (varying premiums and coverage)
-- New marketing campaign categories launched in 2019 and include topics like wellness tips, plan affordability, preventive care
+## Overview
 
-### Details about the data: 
-- Data spans from 2019 to 2023
-- Data tables: customers, campaigns, claims
+The goal of this project was to evaluate the performance of Pathway Health’s marketing campaigns from 2019 to 2023 in order to inform 2024 marketing budget allocation.
+
+Founded in 2016, Pathway Health is a medical insurance company serving thousands of clients across the United States and offering Bronze, Silver, Gold, and Platinum plans with varying premiums and coverage levels. In 2019, the company launched new marketing campaigns spanning topics such as health awareness and tips, affordable health plans, and preventive care.
+
+As Pathway Health prepares its 2024 marketing strategy, leadership sought a deeper understanding of how campaign categories performed across the marketing funnel from impressions and clicks to signups and downstream claim costs since 2019. The budget must balance three objectives:
+1. **Increase brand awareness**  
+2. **Increase customer signups**  
+3. **Manage claim risk**
+
+---
+
+## Dataset Structure
+
+The dataset covered the period 2019–2023 and included three main tables:
+- **Campaigns**: campaign category, type, impressions, clicks, spend  
+- **Customers**: signups, plan tier, state, campaign attribution  
+- **Claims**: claim amount, claim type, claim date
 <img width="744" height="684" alt="image" src="data/pathway_health_ERD.png" />
+These tables were integrated into a Tableau dashboard to enable self‑service exploration and quarterly business reviews.
 
+---
 
-### Stakeholder request:
-- Understand marketing campaign effectiveness, specifically marketing campaign impact in the customer journey (marketing -> signups -> claims) since 2019
-- Build a dashboard for the marketing team to enable self-serve insights and regular cadence reporting (e.g. quarterly business review) featuring:
-    1. Quick glance values for key marketing and signup metrics
-    2. Value reporting for key marketing, signup, and claim metrics per campaign category
-    3. Overall trends by category for signups and claim amounts over time
-    4. Distribution of signups and claim amounts across categories over time
-    5. Performance comparison of KPIs (marketing metrics) across categories
-    6. Segmentation by plan, state, and category type
-- Use dashboard to discover insights on campaign categories and form recommendations for marketing budget
-- Create a presentation to illustrate recommendations to **marketing team** and help refine marketing budget decisions for 2024 
+## North Star Metrics
 
-### Key metrics and dimensions:
-| #  | **North Star Metrics**        | Notes                                                                                          |
-|----| :-----------------------------| :----------------------------------------------------------------------------------------------|
-| 1  | **Click-through-rate (CTR)**  | Percentage of people who saw a campaign and clicked on the associated link (clicks/impressions)|
-| 2  | **Cost-per-click (CPC)**      | Average cost in dollars incurred per individual click                                          |
-| 3  | **Impressions**               | Number of times a campaign was surfaced to an audience on the internet/social media            |
-| 4  | **Signups**                   | Number of people who converted to buying an insurance plan                                     |
-| 5  | **Signup rate**               | Percentage of people who saw a campaign and then signed up for a plan (signups/impressions)    |
-| 6  | **Cost-per-signup (CPS)**     | Average cost in dollars incurred per signup from each campaign (cost/signups)                  |
-| 7  | **Claim amount**              | Cost of filed claims in dollars                                                                |
-| 8  | **Claim count**               | Number of claims filed                                                                         |
-| 9  | **Average claim amount**      | Average claim value in dollars per claim (claim amount/claim count)                            |
+The analysis was anchored on three strategic metrics:
 
+| Objective              | Metric(s)                  | Definition |
+|------------------------|----------------------------|------------|
+| **Increase Awareness** | Click‑Through Rate (CTR)   | % of impressions that resulted in a click |
+| **Increase Signups**   | Signups & Cost per Signup (CPS) | Volume of new customers and efficiency of acquisition |
+| **Manage Claim Risk**  | Claim Amount   | Total and average cost of filed claims |
 
-| #  | **Key Dimensions**              |
-|----| :-------------------------------|
-| 1  | **Campaign category**           |
-| 2  | **Campaign type**               |
-| 3  | **Time**                        |
-| 4  | **Plan** (i.e. insurance plan)  |
+Supporting metrics included impressions, clicks, signup rate, and cost per click (CPC).
 
- ### Campaign Category Dashboard
-[![Campaign Category Dashboard](presentation/Campaign%20Category%20Dashboard.png)](https://public.tableau.com/views/PathwayHealthCampaignAnalysis/CampaignCategoryDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
+---
 
+## Insights Summary
 
+### Brand Awareness & Acquisition
+- **Health For All** campaigns led across CTR, signup rate, and CPS, driven by strong Health Awareness campaigns.
+- **#CoverageMatters** and **#HealthyLiving** combined high signup volume with low CPS, making them efficient acquisition channels.
+- **Golden Years Security** underperformed severely, with minimal signups and the highest CPS.
 
+### Claim Risk
+- **Compare Health Coverage** delivered signups but generated the highest **per‑claim costs**, suggesting disproportionate downstream risk.
+
+### Funnel Quality
+- Several campaigns showed breakdowns (e.g., high CTR but no signups, missing click data, 0‑click signups).
+- Signups were heavily concentrated in **New Jersey (~50%)**, limiting generalizability of results.
+
+---
+
+## Recommendations
+
+- **Reallocate budget** toward efficient campaigns (Health For All, #CoverageMatters).
+- **Reduce or eliminate spend** on underperformers (Golden Years Security, Compare Health Coverage).
+- **Investigate anomalies** in click/signup attribution and NJ concentration.
+- **Improve data capture**: campaign start/end dates, channel and billing model (CPC vs CPM), and geographic detail.
+
+---
+
+## Dashboard
+
+A Tableau dashboard was created to support ongoing monitoring of campaign performance. It enables filtering by plan, campaign type, and state, and provides views of:
+- Marketing funnel metrics (impressions → clicks → signups)
+- Signup and claim trends over time
+- Campaign category comparisons across KPIs
+
+[![Pathway Health Campaign Analysis Dashboard](presentation/Campaign%20Category%20Dashboard.png)](https://public.tableau.com/views/PathwayHealthCampaignAnalysis/CampaignCategoryDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+---
+
+## Presentation
+
+The final presentation synthesizes insights and recommendations for the marketing team and provides guidance for 2024 budget allocation.
+
+[![Pathway Health Insights and Recommendations](Pathway%20Health%20Insights%20and%20Recommendations.pdf)](https://github.com/datalina/in_progress_pathway-health-analysis/blob/main/presentation/Pathway%20Health%20Insights%20and%20Recommendations.pdf)
+---
