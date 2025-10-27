@@ -83,3 +83,5 @@ A Tableau dashboard was created to support ongoing monitoring of campaign perfor
 The final presentation synthesizes insights and recommendations for the marketing team and provides guidance for 2024 budget allocation.
 
 [![Pathway Health Campaign Insights](presentation/Pathway%20Health%20Insights%20Cover.png)](https://github.com/datalina/in_progress_pathway-health-analysis/blob/main/presentation/Pathway%20Health%20Insights%20and%20Recommendations.pdf)
+[![Pathway Health Campaign Insights](presentation/Pathway Health Insights North Star Metrics.png)](https://github.com/datalina/in_progress_pathway-health-analysis/blob/main/presentation/Pathway%20Health%20Insights%20and%20Recommendations.pdf)
+[![Pathway Health Campaign Insights](presentation/Pathway Health Insights Recommendations.png)](https://github.com/datalina/in_progress_pathway-health-analysis/blob/main/presentation/Pathway%20Health%20Insights%20and%20Recommendations.pdf)
